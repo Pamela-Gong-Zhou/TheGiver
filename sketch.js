@@ -2,7 +2,7 @@ var xspeed = 5;
 var xpos = 75;
 
 function setup() {
-  createCanvas(835, 500);
+  createCanvas(1400, windowHeight);
 }
 
 function draw() {
@@ -18,7 +18,7 @@ function draw() {
   rect (mouseX, mouseY, 50, 50);
   
   var x = 75
-  while (x <= width){
+  while (x <= width) {
     
   //outer eye
   fill("white");
@@ -62,6 +62,23 @@ function draw() {
   fill(0);
   ellipse(xpos + 680, 180, 45, 45);
 
+  //pupil#6
+  fill(0);
+  ellipse(xpos + 850, 180, 45, 45);
+
+  //pupil#7
+  fill(0);
+  ellipse(xpos + 1020, 180, 45, 45);
+
+  //pupil#8
+  fill(0);
+  ellipse(xpos + 1190, 180, 45, 45);
+
+  //pupil#9
+  fill(0);
+  ellipse(xpos + 1360, 180, 45, 45);
+
+  
   if (mouseIsPressed){
     
   var x = 75
@@ -83,11 +100,11 @@ function draw() {
   ellipse(xpos, 180, 45, 45);
   
   if (xpos > 80) {
-    xspeed = -2;
+    xspeed = -5;
   }
   
   if (xpos < 70) {
-    xspeed = 2;
+    xspeed = 5;
   }
   
   xpos += xspeed;
@@ -107,6 +124,22 @@ function draw() {
   //pupil#5
   fill(0);
   ellipse(xpos + 680, 180, 45, 45);
+
+  //pupil#6
+  fill(0);
+  ellipse(xpos + 850, 180, 45, 45);
+
+  //pupil#7
+  fill(0);
+  ellipse(xpos + 1020, 180, 45, 45);
+
+  //pupil#8
+  fill(0);
+  ellipse(xpos + 1190, 180, 45, 45);
+
+  //pupil#9
+  fill(0);
+  ellipse(xpos + 1360, 180, 45, 45);
   }
 }
 
