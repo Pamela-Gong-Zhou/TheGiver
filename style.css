@@ -1,3 +1,4 @@
+
 html, body {
   margin: 0;
   padding: 0;
@@ -15,8 +16,9 @@ color: white;
 
 h1{
   position: absolute;
-  bottom: 10%;
-  left: 35%;
+  bottom: 1%;
+  width: 100%;
+  padding: 2%;
   font-size: 8em;
   color: red;
 }
