@@ -1,8 +1,16 @@
+@font-face {
+  font-family: anaphora;
+  src: url('anaphora.trial-light.ttf');
+  font-family: netto brushes;
+  src: url('Netto\ Brushes.otf');
+}
+
 html, body {
     margin: 0;
     padding: 0;
   }
-  canvas {
+ 
+canvas {
     display: block;
     margin: auto;
     margin-top:5%;
@@ -20,6 +28,7 @@ html, body {
     text-align: center;
     font-size: 7em;
     color: red;
+    font-family: anaphora;
   }
   
   h5{
@@ -28,6 +37,7 @@ html, body {
     right: 5%;
     color: #50C878;
     font-size: 3em;
+    font-family: Netto Brushes;
   }
   
   a{
