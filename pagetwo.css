@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+    margin: auto;
+    margin-top:5%;
+  }
+  
+  body{
+  background-color: black;
+  color: white;
+  }
+
+  h1{
+    position: absolute;
+    bottom: 2%;
+    left: 35%;
+    font-size: 7em;
+    color: red;
+  }
+  
+  h5{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: green;
+    font-size: 3em;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  #p1{
+    font-size: 3em;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    padding: 5px;
+  }
