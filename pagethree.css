@@ -2,18 +2,27 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  canvas {
-    display: block;
-    margin: auto;
-    margin-top:5%;
-  }
   
-  body{
-  background-color: black;
-  color: white;
+canvas {
+    display: block;
+    margin: left;
+    margin-top:10%;
+    padding: 2%;
   }
 
-  h1{
+#pumpkincanvas{
+    display: block;
+    margin: right;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+  
+body{
+    background-color: black;
+    color: white;
+    }
+
+h1{
     position: absolute;
     bottom: 2%;
     left: 35%;
@@ -22,7 +31,7 @@ html, body {
     color: red;
   }
   
-  h5{
+h5{
     position: absolute;
     top: 5%;
     right: 5%;
@@ -30,13 +39,14 @@ html, body {
     font-size: 3em;
   }
   
-  a{
+a{
     text-decoration: none;
   }
 
-  #p1{
-    font-size: 3em;
+p{
+    font-size: 4em;
     position: absolute;
-    top: 50%;
-    left: 10%;
-  }
+    top: 35%;
+    right:10%;
+}
+  
