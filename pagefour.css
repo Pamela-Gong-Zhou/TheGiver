@@ -1,0 +1,46 @@
+@font-face {
+    font-family: anaphora;
+    src: url('anaphora.trial-light.ttf');
+    font-family: netto brushes;
+    src: url('Netto\ Brushes.otf');
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    display: block;
+    margin: auto;
+    margin-top:5%;
+  }
+  
+  body{
+  background-color: black;
+  color: white;
+  }
+  
+  h1{
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    left: 35%;
+    padding: 2%;
+    font-size: 8em;
+    color: red;
+    font-family: anaphora;
+  }
+  
+  h5{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #50C878;
+    font-size: 2em;
+    font-family: Netto Brushes;
+  }
+  
+  a{
+    text-decoration: none;
+  }

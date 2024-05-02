@@ -152,10 +152,17 @@ function letters() {
 
   let string = 'Our people made that choice, the choice to go to Sameness. Before my time, before the previous time, back and back and back. We relinquished color when we relinquished sunshine and did away with a difference. We gained control of many things. But we had to let go of others.';
 
-let currentCharacter = 0;
-let pageMargin = 25;
+  let currentCharacter = 0;
+  let pageMargin = 25;
+
+  let font;
+
+function preload (){
+    font = loadFont ('anaphora.trial-light.ttf');
+}
 
   let currentString = string.substring(0, currentCharacter);
+
   push();
   fill(0);
   noStroke();
@@ -165,7 +172,7 @@ let pageMargin = 25;
   push();
   textSize(12);
   fill('white');
-  textFont(`Courier`);
+  textFont(`anaphora`);
   textLeading(30);
   textAlign(LEFT, TOP);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);

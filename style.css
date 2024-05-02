@@ -43,3 +43,24 @@ h5{
 a{
   text-decoration: none;
 }
+
+p{
+  top: 40%;
+  left: 20%;
+  width: 60%;
+  position: absolute;
+  font-size: 3em;
+  font-family: anaphora;
+  animation-name: p;
+  animation-duration: 3s;
+}
+
+@keyframes p{
+  from{
+    left: 10%;
+  }
+  
+  to{
+    left: 20%;
+  }
+}

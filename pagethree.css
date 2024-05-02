@@ -12,8 +12,8 @@ html, body {
   
 canvas {
     display: block;
-    margin-left: 2%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-top: 15%;
     padding: 2%;
   }
 
@@ -34,7 +34,7 @@ h1{
     bottom: 1%;
     width: 100%;
     text-align: center;
-    font-size: 7em;
+    font-size: 8em;
     color: red;
     font-family: anaphora;
   }
@@ -44,7 +44,7 @@ h5{
     top: 5%;
     right: 5%;
     color: #50C878;
-    font-size: 3em;
+    font-size: 4em;
     font-family: Netto Brushes;
   }
   
@@ -55,7 +55,7 @@ a{
 p{
     font-size: 4em;
     position: absolute;
-    top: 35%;
+    top: 40%;
     right:10%;
     font-family: Netto Brushes;
 }
