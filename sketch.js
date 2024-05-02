@@ -1,6 +1,6 @@
 var xspeed = 5;
 var xpos = 75;
-var poetry = ["Our people...", "made that choice", "the choice", "to go to", "Sameness...", "Before my time,", "before the previous time,", "back and back and back.", "We relinquishes color", "when we reliquished sunshine", "and", "did away with a difference.", "We gained control", "of many things.", "But we had to", "let go of others..."];
+var poetry = ["Our people...", "made that choice", "the choice", "to go to", "Sameness...", "Before my time,", "before the previous time,", "back and back and back.", "We relinquishes color", "when we reliquished sunshine", "and...", "did away with a difference.", "We gained control", "of many things.", "But we had to", "let go of others..."];
 
 var index = 0;
 
