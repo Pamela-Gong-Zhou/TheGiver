@@ -16,14 +16,14 @@ canvas {
     margin-top:5%;
   }
   
-  body{
+body{
   background-color: black;
   color: white;
   }
 
-  h1{
+h1{
     position: absolute;
-    bottom: 1%; 
+    bottom: .1%; 
     width: 100%; 
     text-align: center;
     font-size: 7em;
@@ -31,7 +31,7 @@ canvas {
     font-family: anaphora;
   }
   
-  h5{
+h5{
     position: absolute;
     top: 5%;
     right: 5%;
@@ -40,14 +40,77 @@ canvas {
     font-family: Netto Brushes;
   }
   
-  a{
+a{
     text-decoration: none;
   }
 
-  #p1{
-    font-size: 3em;
-    position: absolute;
+  
+#p1{
     top: 50%;
     left: 10%;
+    position: absolute;
+    font-size: 2.5em;
+    font-family: anaphora;
+    animation-name: p1;
+    animation-duration: 3s;
+  }
+  
+@keyframes p1{
+    from{
+      left:3%;
+    }
+    
+    to{
+      left: 10%;
+    }
+  }
+  
+#p2{
+    top: 55%;
+    right: 10%;
+    position: absolute;
+    font-size: 2.5em;
+    font-family: anaphora;
+    animation-name: p2;
+    animation-duration: 3s;
   }
 
+@keyframes p2{
+  from{
+    right: 3%;
+  }
+
+  to{
+    right: 10%;
+  }
+}  
+
+#p3{
+  top: 70%;
+  left: 18%;
+  position: absolute;
+  font-size: 2.5em;
+  font-family: anaphora;
+  animation-name: p3;
+  animation-duration: 3s;
+}
+
+@keyframes p3{
+  from{
+    left: 13%;
+  }
+  
+  to{
+    left: 18%;
+  }
+}
+
+#p4{
+  top: 75%;
+  right: 10%;
+  position: absolute;
+  font-size: 2.5em;
+  font-family: anaphora;
+  animation-name: p2;
+  animation-duration: 3s;
+}

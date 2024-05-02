@@ -26,10 +26,10 @@ function draw() {
   pop();
   
   push();
-  textSize(100);
+  textSize(70);
   fill("white");
-  textFont(`font`);
-  textLeading(90);
+  textFont(`Netto Brushes`);
+  textLeading(110);
   textAlign(LEFT, TOP);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);
   pop();
