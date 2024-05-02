@@ -11,14 +11,12 @@ function setup() {
 function draw() {
   
   background(0);
-
-  textSize(40);
-  fill("white");
-  text(poetry[index], width/2.5, height/2);
+  drawPoetry();
 
   frameRate(12);
   stroke("white");
 
+  textSize(28);
   text("You are here at: "+mouseX, mouseX + 35, mouseY);
   text("You are here at: "+mouseY, mouseX - 20, mouseY + 45);
   noFill();
@@ -149,6 +147,13 @@ function draw() {
   fill(0);
   ellipse(xpos + 1360, 180, 45, 45);
   }
+}
+
+function drawPoetry(){
+  textSize(100);
+  fill("white");
+  text(poetry[index], width/10, height/2);
+  textFont('anaphora');
 }
 
 function mousePressed(){
