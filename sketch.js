@@ -18,8 +18,7 @@ function draw() {
 
   frameRate(12);
   stroke("white");
-  
-  textSize(12);
+
   text("You are here at: "+mouseX, mouseX + 35, mouseY);
   text("You are here at: "+mouseY, mouseX - 20, mouseY + 45);
   noFill();
