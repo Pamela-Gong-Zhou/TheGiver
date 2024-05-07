@@ -8,9 +8,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    cursor: url('Brush.png'), auto;
+  
   }
   
+  body{
+    background-color: black;
+    color: white;
+    cursor: url('Brush.png'), auto;
+    }
+
 canvas {
     display: block;
     margin-left: 10%;
@@ -25,10 +31,7 @@ canvas {
     padding: 2%;
 }
   
-body{
-    background-color: black;
-    color: white;
-    }
+
 
 h1{
     position: absolute;
@@ -60,4 +63,12 @@ p{
     right:10%;
     font-family: Netto Brushes;
 }
+
+@media screen and (max-width: 1920px) {
+  p{
+    font-size: 2em;
+    position: absolute;
+
+  }
   
+}
