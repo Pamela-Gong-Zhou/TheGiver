@@ -7,7 +7,7 @@ let pageMargin = 300;
 let font;
 
 function preload (){
-    font = loadFont ('Netto Brushes.otf');
+    font = loadFont ('Caveat-VariableFont_wght.ttf');
 }
 
 function setup() {
@@ -28,7 +28,7 @@ function draw() {
   push();
   textSize(70);
   fill("white");
-  textFont(`Netto Brushes`);
+  textFont(`Caveat-VariableFont_wght`);
   textLeading(110);
   textAlign(LEFT, TOP);
   text(currentString, pageMargin + 10, pageMargin + 10, width - pageMargin*2, height - pageMargin);
