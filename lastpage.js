@@ -7,7 +7,7 @@ function draw(){
     fill(0);
     textSize(100);
     textFont('Netto Brushes');
-    text('This is', width/3.8, height/1.8);
+    text('This is', width/4.2, height/1.8);
 
 
     drawEnd();

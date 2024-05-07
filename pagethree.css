@@ -36,7 +36,7 @@ canvas {
 h1{
     position: absolute;
     bottom: 1%;
-    width: 100%;
+    left: 30%;
     text-align: center;
     font-size: 8em;
     color: red;
@@ -64,11 +64,17 @@ p{
     font-family: Netto Brushes;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 2304px) {
   p{
-    font-size: 2em;
+    font-size: 3.2em;
     position: absolute;
+    top: 45%;
+  }
 
+  h1{
+    position: absolute;
+    bottom:0.1%;
+    left: 50%;
   }
   
 }

@@ -44,3 +44,12 @@
   a{
     text-decoration: none;
   }
+
+  @media screen and (max-width: 2304px) {
+    h1{
+      position: absolute;
+      top:80%;
+      width: 100%;
+      left:28%;
+    }
+  }
