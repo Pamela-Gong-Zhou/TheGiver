@@ -80,19 +80,22 @@ p{
 
 @media screen and (max-width: 600px){
   p{
-    font-size: 2em;
+    font-size: 3em;
     position: absolute;
-    top: 95%;
-    left:28%
+    top: 65%;
+    left:10%;
   }
 
   h1{
     position: absolute;
-    top: 100%;
-    left: 20%;
+    font-size: 7em;
+    bottom: 2%;
+    left: 20%; 
   } 
 
   h5{
-    bottom: 100%;
+    position: absolute;
+    top: -5%;
+    right: 5%;
   }
 }
