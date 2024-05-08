@@ -24,3 +24,11 @@ h1{
   color: red;
   font-family: anaphora;
 }
+
+p{
+  color: white;
+  font-family: anaphora;
+  font-size: 2.5em;
+  margin: 2%;
+  padding: 5%;
+}
