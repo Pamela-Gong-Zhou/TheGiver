@@ -20,7 +20,7 @@ h1{
   bottom: 1%;
   right: 5%;
   padding: 2%;
-  font-size: 8em;
+  font-size: 5em;
   color: red;
   font-family: anaphora;
 }
@@ -31,4 +31,16 @@ p{
   font-size: 2.5em;
   margin: 2%;
   padding: 5%;
+}
+
+p i{
+  color:#50C878;
+}
+
+#portfolio p i{
+  color: #50C878;
+}
+
+a{
+  text-decoration: none;
 }
